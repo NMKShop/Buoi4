@@ -42,6 +42,11 @@ namespace Buoi4
             tam = new ToaDo();
             bankinh = 0;
         }
+        public void nhap()
+        {
+            Console.Write("Nhập r: ");
+            bankinh = double.Parse(Console.ReadLine());
+        }
         public void xuat()
         {
             Console.WriteLine("Chu vi = {0} \t Diện tích = {1}", tinhChuvi(), tinhDientich());

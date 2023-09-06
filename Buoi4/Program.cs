@@ -11,13 +11,14 @@ namespace Buoi4
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            Console.InputEncoding=Encoding.Unicode;
+            Console.InputEncoding = Encoding.Unicode;
             ToaDo td = new ToaDo();
             td.nhap();
             string info = td.ToString();
             Console.WriteLine(info);
             //Hình tròn
             HinhTron hc = new HinhTron();
+            hc.nhap();
             hc.xuat();
             Console.ReadKey();
         }
